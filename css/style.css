@@ -205,3 +205,13 @@ padding:20px;
 
 
 /*end of contact style*/
+
+        footer{
+                background: #052a4d;
+            color:white;
+            text-align:center;
+            padding:15px;
+            position:fixed;
+            width:100%;
+            bottom:0;
+        }
