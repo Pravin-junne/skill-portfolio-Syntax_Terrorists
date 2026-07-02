@@ -1,0 +1,112 @@
+<!-- File Name: home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Skill Portfolio Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        /* Navigation Bar */
+        nav{
+            background:#052a4d;
+            padding:15px 40px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        nav h2{
+            color:white;
+        }
+
+        nav ul{
+            list-style:none;
+            display:flex;
+            gap:25px;
+        }
+
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        nav ul li a:hover{
+            color:#ffd700;
+        }
+
+        /* Hero Section */
+        .hero{
+            text-align:center;
+            padding:100px 20px;
+        }
+
+        .hero h1{
+            font-size:42px;
+            color:#1f4e79;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            max-width:700px;
+            margin:auto;
+            font-size:18px;
+            line-height:1.6;
+        }
+
+        footer{
+            background:#1f4e79;
+            color:white;
+            text-align:center;
+            padding:15px;
+            position:fixed;
+            width:100%;
+            bottom:0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Student Skill Portfolio</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#profileSection.html">Profile</a></li>
+            <li><a href="#project.html">Projects</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage Content -->
+    <section class="hero">
+        <h1>Welcome to My Student Skill Portfolio Website</h1>
+
+        <p>
+            This website showcases my academic achievements, technical skills,
+            personal projects, and contact information. It serves as a digital
+            portfolio to highlight my learning journey, creativity, and
+            professional development as a student.
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2026 Student Skill Portfolio Website. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
